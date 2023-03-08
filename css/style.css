@@ -1,0 +1,377 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li {
+	list-style: none;
+	padding: 0;
+}
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+/*header part css start*/
+
+header{
+	background-color: #0872b9;
+	padding-top: 15px;
+}
+.welcome p{
+	color: white;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif; 
+}
+.icon ul{
+	float: right;
+}
+.icon ul li{
+
+}
+.icon ul li a{
+	color: white;
+	padding: 0 15px;
+	transition: all linear .3s;
+}
+.icon ul li a:hover{
+	color: black;
+	transition: all linear .3s;
+}
+
+/*header part css end*/
+
+/*navigation part css start*/
+
+.navbar-nav .nav-item{
+    font-size: 14px;
+    color: #d8d8d8;
+}
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link .active{
+	color: #0872b9;
+}
+
+/*navigation part css end*/
+
+/*banner part css srart*/
+
+#banner{
+	background: url(../images/overlay.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner-overlay{
+	padding: 88px 0;
+	background-color: rgba(0,0,0,0.6);
+}
+.banner-content{
+	text-align: right;
+	color: white;
+}
+.banner-content h4{
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.banner-content h1{
+	font-size: 40px;
+	font: family'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.banner-content p{
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner-content a{
+	color: white;
+	font-size: 14px;
+	font: family'Oswald', sans-serif;
+	font-weight: 400;
+	padding: 5px 10px;
+	margin-left: 10px;
+	border:1px solid white;
+}
+.banner-content a:hover{
+	background-color: #0872b9;
+	border:#0872b9;
+}
+/*banner part css end*/
+
+/*heading part css start*/
+
+.common_heading{
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.common_heading h3{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 500px;
+}
+.common_heading img{
+	width: 70px;
+	margin-left: 504px;
+	margin-top: -30px;
+}
+/*heading part css end*/
+
+/*about part css start*/
+.about_content p{
+font-size: 15px;
+margin-top: 30px;
+justify-content: center;
+font-family: 'Open Sans', sans-serif;
+}
+/*about part css end*/
+
+/*services part css start*/
+
+
+
+.common_heading_services{
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.common_heading_services h3{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 500px;
+}
+.common_heading_services img{
+	width: 70px;
+	margin-left: 482px;
+	margin-top: -30px;
+}
+
+.services{
+	background-color: #f1f1f1;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+
+}
+.ser_icon_main{
+	height: 80px;
+	width: 80px;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: relative;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: -40px;
+
+}
+.ser_icon{
+	height: 70px;
+	width: 70px;
+	background-color: #f1f1f1;
+	border: 3px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+	/*transition: all linear 1s;*/
+}
+.services :hover .ser_icon_main {
+	background-color : blue;  /* #5bc5f4*/ 
+	/*transition: all linear 1s;*/
+}
+.services h1{
+	font-size: 16px;
+	padding-top: 52px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 500px;
+
+}
+.services p{
+	font-size: 13px;
+	padding:0 22px 20px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/*services part css end*/
+
+
+/*portfolio part css start*/
+
+.portfolio_heading img{
+	margin-left: 475px;
+}
+
+.portfolio_img img{
+	margin-bottom:20px;
+	text-align: center;
+
+}
+.portfolio_img2 img{
+	margin:px;
+}
+
+/*portfolio part css end*/
+
+
+/*team part css start*/
+
+.team{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500px;
+	position:relative;
+	text-align: center;
+
+}
+.team h1{
+	font-size: 18px;
+	margin-top: 10px;
+}
+.team p{
+	font-size: 16px;
+}
+/*.team_overlay{
+	position: absolute;
+	background-color:rgba(0,0,0,0.6);
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.team_overlay ul li{
+	
+	
+}*/
+
+/*team part css end*/
+
+/*testimonial part css start*/
+
+
+
+.testimonial img{
+	margin-left: 490px;
+}
+.round_img{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.testimonial_content{
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+.piramid{
+	height: 40px;
+	width: 40px;
+	background-color:#f1f1f1;
+	position: absolute;
+	top: -9%;
+	left:46%;
+	transform: rotate(45deg);
+	z-index: -1;
+
+
+}
+.testimonial_content ul{
+	display: inline-flex;
+}
+.testimonial_content h4{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500px;
+	font-size: 22px;
+}
+.testimonial_content h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400px;
+	font-size: 18px;
+}
+.testimonial_content p{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400px;
+	font-size: 13px;
+}
+
+/*testimonial part css end*/
+
+/*footer part css start*/
+
+footer{
+	background-color: #353535;
+	margin-top: 40px;
+	padding: 25px 0 20px 40px;
+}
+.footer_content p{
+	padding-top: 30px;
+	color: white;
+	font-size: 15px;
+}
+
+.footer_common_heading h1{
+	color: white;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.common_heading_2 h1{
+	margin-bottom: 25px;
+}
+
+.footer_icon a{
+    height: 40px;
+    color: white;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    background-color: #5bc5f4;
+    margin-top: 7px;
+}
+.footer-numbers p{
+	color: white;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.links p{
+	color: white;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	line-height: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+.ourteam p{
+	font-size: 12px;
+}
+.footer_img img{
+	margin-bottom: 15px;
+}
+
+/*footer part css end*/
+
+.copyright h1 {
+	background-color: #555555;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	padding: 20px;
+}
